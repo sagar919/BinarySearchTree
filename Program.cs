@@ -57,7 +57,7 @@ public class BinaryTree
 	public static void Main(string[] args)
 	{
 		BinaryTree tree = new BinaryTree();
-		int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7 };
+		int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7,8 };
 		int n = arr.Length;
 		root = tree.sortedArrayToBST(arr, 0, n - 1);
 		Console.WriteLine("Preorder traversal of constructed BST");
